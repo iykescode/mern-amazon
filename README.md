@@ -1,1 +1,3 @@
-# mern-amazon
+# MERN AMAZON
+
+# Features
