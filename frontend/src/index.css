@@ -20,14 +20,30 @@ main {
     flex: 1;
 }
 
+.btn-primary {
+    background-color: #ffc040;
+    color: #000000;
+}
+
+.btn-primary:hover {
+    background-color: #c59612;
+    color: #ffffff;
+    font-weight: bolder;
+    transition: 0.7s;
+}
+
 .products {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.rating span {
+    color: #ffc000;
+}
+
 .product {
-    border: 1px #2a2a2a solid;
+    border: 1px #2a2a2a dashed;
     margin: 1rem;
 }
 
@@ -38,4 +54,8 @@ main {
 
 .product-info {
     padding: 1rem;
+}
+
+.img-large {
+    max-width: 100%;
 }
